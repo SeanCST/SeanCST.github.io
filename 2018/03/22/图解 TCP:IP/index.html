@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="网络," />
 
 
 
@@ -80,15 +80,16 @@
 
 
 <meta name="description" content="一、网络基础知识1. OSI 参考模型 OSI 模型中，每个分层都接受由它下一层所提供的特定服务，并且负责为自己的上一层提供特定的服务。上下层之间进行交互时所遵循的约定叫做 接口。同一层之间的交互所遵循的约定叫做 协议。    OSI 七层模型  应用层 ： 应用层协议会在所要传送数据的前端附加一个首部信息，这一附有首部信息的数据传送给主机 B 后有该主机的软件获取内容。 表示层 ： 将数据从主机">
+<meta name="keywords" content="网络">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/2016/08/17/图解 TCP:IP/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:title" content="《图解 TCP&#x2F;IP》">
+<meta property="og:url" content="http://yoursite.com/2018/03/22/图解 TCP:IP/index.html">
+<meta property="og:site_name" content="SeanCST&#39;s Blog">
 <meta property="og:description" content="一、网络基础知识1. OSI 参考模型 OSI 模型中，每个分层都接受由它下一层所提供的特定服务，并且负责为自己的上一层提供特定的服务。上下层之间进行交互时所遵循的约定叫做 接口。同一层之间的交互所遵循的约定叫做 协议。    OSI 七层模型  应用层 ： 应用层协议会在所要传送数据的前端附加一个首部信息，这一附有首部信息的数据传送给主机 B 后有该主机的软件获取内容。 表示层 ： 将数据从主机">
 <meta property="og:image" content="http://yoursite.com/Users/Sean/Desktop/TCP:IP的建立与断开.png">
-<meta property="og:updated_time" content="2016-08-25T01:16:28.000Z">
+<meta property="og:updated_time" content="2018-03-22T09:30:42.817Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="《图解 TCP&#x2F;IP》">
 <meta name="twitter:description" content="一、网络基础知识1. OSI 参考模型 OSI 模型中，每个分层都接受由它下一层所提供的特定服务，并且负责为自己的上一层提供特定的服务。上下层之间进行交互时所遵循的约定叫做 接口。同一层之间的交互所遵循的约定叫做 协议。    OSI 七层模型  应用层 ： 应用层协议会在所要传送数据的前端附加一个首部信息，这一附有首部信息的数据传送给主机 B 后有该主机的软件获取内容。 表示层 ： 将数据从主机">
 <meta name="twitter:image" content="http://yoursite.com/Users/Sean/Desktop/TCP:IP的建立与断开.png">
 
@@ -120,13 +121,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2016/08/17/图解 TCP:IP/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/03/22/图解 TCP:IP/"/>
 
 
 
 
 
-  <title> | Hexo</title>
+  <title>《图解 TCP/IP》 | SeanCST's Blog</title>
   
 
 
@@ -156,7 +157,7 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Hexo</span>
+        <span class="site-title">SeanCST's Blog</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -187,6 +188,36 @@
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
             Startseite
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            Über
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Kategorien
           </a>
         </li>
       
@@ -233,16 +264,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/08/17/图解 TCP:IP/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/03/22/图解 TCP:IP/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="John Doe">
+      <meta itemprop="name" content="SeanCST">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
+      <meta itemprop="name" content="SeanCST's Blog">
     </span>
 
     
@@ -250,7 +281,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline"></h1>
+          <h1 class="post-title" itemprop="name headline">《图解 TCP/IP》</h1>
         
 
         <div class="post-meta">
@@ -262,8 +293,8 @@
               
                 <span class="post-meta-item-text">Veröffentlicht am</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-08-17T14:32:03+08:00">
-                2016-08-17
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-03-22T16:27:15+08:00">
+                2018-03-22
               </time>
             
 
@@ -883,6 +914,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/网络/" rel="tag"># 网络</a>
+          
+        </div>
+      
 
       
       
@@ -892,15 +929,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2018/03/22/还是一篇测试文章/" rel="next" title="还是一篇测试文章">
+                <i class="fa fa-chevron-left"></i> 还是一篇测试文章
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/03/22/hello-world/" rel="prev" title="Hello World">
-                Hello World <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -966,7 +1003,7 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <p class="site-author-name" itemprop="name">John Doe</p>
+              <p class="site-author-name" itemprop="name">SeanCST</p>
               <p class="site-description motion-element" itemprop="description"></p>
           </div>
 
@@ -990,7 +1027,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">Tags</span>
                 </a>
               </div>
@@ -1047,7 +1084,7 @@
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">John Doe</span>
+  <span class="author" itemprop="copyrightHolder">SeanCST</span>
 
   
 </div>
